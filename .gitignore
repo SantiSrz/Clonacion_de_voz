@@ -1,0 +1,28 @@
+# Entornos virtuales y Conda
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.conda/
+env/
+venv/
+
+# Audios y salidas generadas
+data/*.wav
+data/*.mp3
+data/*.flac
+outputs/*.wav
+outputs/*.mp3
+!data/.gitkeep
+!outputs/.gitkeep
+
+# Pesos de modelos y cachés
+*.pt
+*.pth
+*.bin
+*.safetensors
+.cache/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
